@@ -315,6 +315,7 @@ $(call inherit-product, hardware/oplus/oplus-fwk/oplus-fwk.mk)
 
 # Touch
 PRODUCT_PACKAGES += \
+    TouchGestures \
     vendor.lineage.touch@1.0-service.oplus
 
 # Update engine
